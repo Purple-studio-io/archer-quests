@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bookmark surfing</title>
+    <script src="bookmarksurfing.js"></script>
+  </head>
+  <body style="height:400px;width:400px;padding:0px;margin:0px;">
+    <table
+      style="padding:10px;width:100%;background-color: #EFEFEF;border-bottom:1px solid #DDD;height:62px;"
+    >
+      <tr>
+        <td style="width:42px;">
+          <img src="icon.png" />
+        </td>
+        <td>
+          <input id="filter" type="text" style="width:100%; height:23px;" />
+        </td>
+      </tr>
+    </table>
+
+    <div
+      style="height:318px;overflow-y:scroll; overflow-x: hidden; width:100%;"
+      id="result-container"
+    >
+      <div id="result"></div>
+    </div>
+  </body>
+</html>

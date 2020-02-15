@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Bookmarks Surfing",
+  "description": "This extension helps you to navigate into your bookmarks quickly",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["bookmarks", "https://ajax.googleapis.com/"]
+}
